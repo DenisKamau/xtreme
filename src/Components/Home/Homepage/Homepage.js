@@ -3,6 +3,7 @@ import About from "../About/About";
 import Header from "../Header/Header";
 import HeroSection from "../HeroSection/HeroSection";
 import ProgramSection from "../ProgramsSection/ProgramSection";
+import Team from "../TeamSection/Team";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <HeroSection />
       <ProgramSection />
       <About />
+      <Team />
     </div>
   );
 };

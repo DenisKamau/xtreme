@@ -50,7 +50,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0px 38px;
-  height: 1481px;
   background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
   background: linear-gradient(180deg, #dddddd 0%, #ffffff 100%);
   border-radius: 50px 50px 0px 0px;
@@ -65,10 +64,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 128px;
-}
-
-.aboutMiddle .firstRow .firstRowRight {
-  margin-left: 170px;
+  margin-left: 111px;
+  margin-right: 111px;
 }
 
 .aboutMiddle .firstRow .firstRowRight h5 {
@@ -79,10 +76,6 @@
   line-height: 42px;
   color: #000000;
   margin-bottom: 50px;
-}
-
-.aboutMiddle .firstRow .firstRowLeft {
-  margin-right: 170px;
 }
 
 .aboutMiddle .secondRow {
@@ -239,5 +232,20 @@
   line-height: 22px;
   color: #000000;
   margin-bottom: 0px;
+}
+
+.aboutBottom {
+  margin-top: -39px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.74)), to(rgba(0, 0, 0, 0.74))), url(../../assets/background2.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url(../../assets/background2.jpg);
+  background-size: cover;
+}
+
+.aboutBottom .line {
+  margin-top: 39px;
+}
+
+.aboutBottom .line2 {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=About.css.map */

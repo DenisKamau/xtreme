@@ -42,7 +42,6 @@
   display: flex;
   flex-direction: column;
   margin: 0px 38px;
-  height: 1481px;
   background: linear-gradient(180deg, #dddddd 0%, #ffffff 100%);
   border-radius: 50px 50px 0px 0px;
   margin-top: -35px;
@@ -51,10 +50,10 @@
     display: flex;
     justify-content: space-between;
     padding-top: 128px;
+    margin-left: 111px;
+    margin-right: 111px;
 
     .firstRowRight {
-      margin-left: 170px;
-
       h5 {
         font-family: "Poppins";
         font-style: normal;
@@ -66,7 +65,6 @@
       }
     }
     .firstRowLeft {
-      margin-right: 170px;
     }
   }
 
@@ -198,5 +196,22 @@
         }
       }
     }
+  }
+}
+
+.aboutBottom {
+  margin-top: -39px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url(../../assets/background2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .line {
+    margin-top: 39px;
+  }
+
+  .line2 {
+    margin-bottom: 20px;
   }
 }
