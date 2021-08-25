@@ -1,14 +1,15 @@
 import React from "react";
+import "../../../Styles/PillarCard/PillarCard.css";
 
-const PillarCard = () => {
+const PillarCard = ({ image, heading, paragraph }) => {
   return (
     <div className="pillarCard">
       <div className="pillarCardLeft">
-        <img alt="icon" src="" />
+        <img alt="icon" src={image} />
       </div>
-      <div className="pillarCardright">
-        <h3>Posture</h3>
-        <p>Correcting your posture will reduce stress and strain on your body. You’ll stand taller, move better and feel less fatigue.</p>
+      <div className="pillarCardRight">
+        <h3>{heading}</h3>
+        <p>{paragraph}</p>
       </div>
     </div>
   );

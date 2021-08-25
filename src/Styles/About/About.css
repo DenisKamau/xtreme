@@ -36,8 +36,208 @@
   width: 30px;
   height: 0px;
   border: 1.7px solid #ff9c0b;
-  margin-top: 14px;
   background-color: #ff9c0b;
+  margin-top: 7px;
+  margin-bottom: 55px;
+}
+
+.aboutMiddle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 38px;
+  height: 1481px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
+  background: linear-gradient(180deg, #dddddd 0%, #ffffff 100%);
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -35px;
+}
+
+.aboutMiddle .firstRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 128px;
+}
+
+.aboutMiddle .firstRow .firstRowRight {
+  margin-left: 170px;
+}
+
+.aboutMiddle .firstRow .firstRowRight h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.aboutMiddle .firstRow .firstRowLeft {
+  margin-right: 170px;
+}
+
+.aboutMiddle .secondRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px;
+  margin-left: 111px;
+  margin-right: 111px;
+}
+
+.aboutMiddle .secondRow h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6d7d8b;
+  margin-bottom: 60px;
+}
+
+.aboutMiddle .secondRow .servicesRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutMiddle .secondRow .servicesRow .service {
+  width: 236px;
+}
+
+.aboutMiddle .secondRow .servicesRow .service h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutMiddle .secondRow .servicesRow .service h2 span {
+  background-color: #ff9c0b;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+.aboutMiddle .secondRow .servicesRow .service p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #414141;
+  margin-top: 5px;
+}
+
+.aboutMiddle .thirdRow {
+  margin-top: 90px;
+  margin-left: 111px;
+  margin-right: 111px;
+  background: #fec814;
+  border-radius: 50px;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent {
+  margin: 52px 67px;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.29);
   margin-bottom: 30px;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  margin-bottom: 57px;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent .numbersRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent .numbersRow .numbersContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 216px;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent .numbersRow .numbersContent h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 63px;
+  line-height: 94px;
+  color: #033ddc;
+}
+
+.aboutMiddle .thirdRow .thirdRowContent .numbersRow .numbersContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=About.css.map */
