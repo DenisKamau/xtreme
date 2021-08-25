@@ -1,6 +1,6 @@
 .naviHeader {
   background-color: black;
-  height: 34px;
+  height: 37px;
 }
 
 .naviHeader ul {
@@ -21,7 +21,8 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  padding: 5px 38px;
+  padding: 5px 36px;
+  padding-bottom: 8px;
 }
 
 .naviHeader ul a {

@@ -2,7 +2,7 @@
 
 .headerSection {
   @include sectionStyle();
-  padding-top: 0px;
+  padding-top: 15px;
 
   .homeHeader {
     display: flex;
@@ -12,6 +12,10 @@
 
   .logo {
     flex: 0.25;
+
+    .logoImage {
+      width: 200px;
+    }
   }
 
   .headerLinks {

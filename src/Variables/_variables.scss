@@ -16,11 +16,56 @@
 // =========================
 
 $orangeColor: #ff9c0b;
+$blackColor: #000000;
+$offBlackColor: #414141;
+$whiteColor: #ffffff;
 
 // =========================
 //         FONTS
 // =========================
 
+$titleFont: "Poppins";
+$otherFont: "Lato";
+
 // =========================
 //         MIXIN
 // =========================
+
+@mixin h1Style {
+  font-family: $titleFont;
+  font-style: normal;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 51px;
+  color: $blackColor;
+}
+
+@mixin h2Style {
+  font-family: $titleFont;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: $blackColor;
+}
+
+@mixin pStyle {
+  font-family: $otherFont;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: normal;
+  color: $offBlackColor;
+}
+
+@mixin buttonStyle {
+  background-color: $orangeColor;
+  color: $whiteColor;
+  border-radius: 4px;
+  padding: 14px 21px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+}

@@ -1,0 +1,77 @@
+.programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 180px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 45px;
+}
+
+.programs .programsLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  margin-right: 43px;
+}
+
+.programs .programsLeft h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  width: 150px;
+}
+
+.programs .programsLeft img {
+  margin-top: -30px;
+  margin-left: -35px;
+  width: 80.32px;
+  height: 66.4px;
+}
+
+.programs .programsRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 88px;
+  background-color: #e0f1ff;
+  gap: 90px;
+  border-radius: 20px;
+}
+
+.programs .programsRight .programCategory .categoryTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.programs .programsRight .programCategory .categoryTop h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+
+.programs .programsRight .programCategory p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #414141;
+  width: 169px;
+  height: auto;
+}
+/*# sourceMappingURL=ProgramSection.css.map */

@@ -1,0 +1,39 @@
+@import "../../Variables/variables";
+
+.aboutTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)), url(../../assets/background1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .line {
+    width: 0px;
+    height: 30px;
+    border: 1px solid $orangeColor;
+    margin-bottom: 20px;
+    background-color: $orangeColor;
+  }
+
+  h3 {
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: $whiteColor;
+  }
+
+  .line2 {
+    width: 30px;
+    height: 0px;
+    border: 1.7px solid $orangeColor;
+    margin-top: 14px;
+    background-color: $orangeColor;
+    margin-bottom: 30px;
+  }
+}

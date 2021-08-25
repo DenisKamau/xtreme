@@ -2,7 +2,7 @@
 
 .naviHeader {
   background-color: black;
-  height: 34px;
+  height: 37px;
   ul {
     display: flex;
     flex-direction: row;
@@ -15,7 +15,8 @@
       text-transform: uppercase;
       text-decoration: none;
       text-align: center;
-      padding: 5px 38px;
+      padding: 5px 36px;
+      padding-bottom: 8px;
     }
 
     a {
