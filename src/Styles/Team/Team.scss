@@ -1,0 +1,21 @@
+@import "../../Variables/variables";
+
+.team {
+  h3 {
+    @include h3Style();
+  }
+
+  .line {
+    @include lineStyle();
+  }
+}
+
+.overlay {
+  background: url("../../assets/overlay.svg") center no-repeat;
+
+  .trainersRow {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}

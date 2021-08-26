@@ -1,0 +1,16 @@
+@import "../../Variables/variables";
+
+.price {
+  h3 {
+    @include h3Style();
+  }
+
+  .line {
+    @include lineStyle();
+  }
+}
+
+.pricesRow {
+  display: flex;
+  justify-content: space-between;
+}

@@ -7,10 +7,6 @@
   margin: 0 auto;
 }
 
-@mixin sectionStyle {
-  padding: 30px 30px 90px 30px;
-}
-
 // =========================
 //         COLORS
 // =========================
@@ -48,6 +44,15 @@ $otherFont: "Lato";
   color: $blackColor;
 }
 
+@mixin h3Style {
+  font-family: $titleFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000000;
+}
+
 @mixin pStyle {
   font-family: $otherFont;
   font-style: normal;
@@ -68,4 +73,12 @@ $otherFont: "Lato";
   font-weight: bold;
   font-size: 13px;
   line-height: 24px;
+}
+
+@mixin lineStyle {
+  width: 60px;
+  height: 3px;
+  background-color: $orangeColor;
+  margin-top: 15px;
+  margin-bottom: 60px;
 }

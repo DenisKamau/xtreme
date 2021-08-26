@@ -1,0 +1,115 @@
+.footerSection {
+  margin-top: 90px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+.footer .footerLeft img {
+  width: 311px;
+  height: 84px;
+  margin-bottom: 30px;
+}
+
+.footer .footerLeft p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 205px;
+}
+
+.footer .footerLeft .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  color: #ffffff;
+}
+
+.footer .footerRight {
+  margin-top: 20px;
+}
+
+.footer .footerRight h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.footer .footerRight .line {
+  width: 60px;
+  height: 3px;
+  background-color: #ff9c0b;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
+
+.footer .footerRight .contactDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 42px;
+}
+
+.footer .footerRight .left h6,
+.footer .footerRight .right h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer .footerRight .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer .footerRight .detail p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 120px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,61 @@
+@import "../../Variables/variables";
+
+.contact {
+  display: flex;
+  gap: 112px;
+  .contactImage {
+    width: 735px;
+    height: 566px;
+    border-radius: 6px;
+  }
+
+  .contactRight {
+    h3 {
+      @include h3Style();
+    }
+    .line {
+      @include lineStyle();
+      margin-bottom: 7px;
+    }
+    p {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 150.6%;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .form {
+      width: 443px;
+
+      input,
+      textarea {
+        background: #ffffff;
+        width: 100%;
+        padding: 14px 16px;
+        border: 2px solid #bbc8d4;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        height: 154px;
+        margin-bottom: 38px;
+      }
+
+      button {
+        @include buttonStyle();
+        width: 129px;
+        height: 47px;
+        border-radius: 10px;
+        font-family: $titleFont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+.priceCard {
+  position: relative;
+  width: 285px;
+  height: 470px;
+  background: #f6f6f6;
+  -webkit-box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.37);
+          box-shadow: 0px 2px 12px 1px rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+
+.priceCard .priceCardContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 24px;
+}
+
+.priceCard .priceCardContent h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 45px;
+  color: #033ddc;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 50%;
+  width: 50px;
+  height: 48px;
+  text-align: center;
+}
+
+.priceCard .priceCardContent h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.priceCard .priceCardContent .perks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 22px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.priceCard .priceCardContent .checkIcon {
+  width: 16px;
+  height: 16px;
+  opacity: 60%;
+}
+
+.priceCard .priceCardContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.priceCard .priceCardContent h6 {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  bottom: 90px;
+}
+
+.priceCard .priceCardContent button {
+  background-color: #ff9c0b;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 14px 21px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  position: absolute;
+  border-radius: 48px;
+  width: 110px;
+  height: 41px;
+  padding: 8px 10px;
+  font-size: 12px;
+  bottom: 37px;
+}
+/*# sourceMappingURL=PriceCard.css.map */

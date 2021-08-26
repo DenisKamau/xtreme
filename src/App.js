@@ -6,15 +6,17 @@ import NaviHeader from "./Components/NaviHeader/NaviHeader";
 
 const App = () => {
   return (
-    <Router>
-      <NaviHeader />
-      <Switch>
-        <Route path="/shop">
-          <h1>Shop</h1>
-        </Route>
-        <Route exact path="/" component={Homepage} />
-      </Switch>
-    </Router>
+    <div className="app">
+      <Router>
+        <NaviHeader />
+        <Switch>
+          <Route path="/shop">
+            <h1>Shop</h1>
+          </Route>
+          <Route exact path="/" component={Homepage} />
+        </Switch>
+      </Router>
+    </div>
   );
 };
 
