@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACjB,cAAc,EAAE,IAAI;CACrB",
+    "sources": [
+        "ShopHeader.scss",
+        "../../../Variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "ShopHeader.css"
+}

@@ -1,0 +1,42 @@
+.serviceCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.serviceCard img {
+  height: 43px;
+}
+
+.serviceCard .serviceCardContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.serviceCard .serviceCardContent h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+}
+
+.serviceCard .serviceCardContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: #6d7d8b;
+}
+/*# sourceMappingURL=ServiceCard.css.map */

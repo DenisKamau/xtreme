@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,mBAAmB;CACtC",
+    "sources": [
+        "Services.scss",
+        "../../../Variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "Services.css"
+}

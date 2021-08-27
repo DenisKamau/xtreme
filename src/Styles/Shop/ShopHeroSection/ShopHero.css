@@ -1,0 +1,51 @@
+.shopHero {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.39)), to(rgba(0, 0, 0, 0.49))), url(../../../assets/Shop/shopHero.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.49)), url(../../../assets/Shop/shopHero.jpg);
+  background-size: cover;
+  height: 540px;
+}
+
+.shopHero .shopHeroLeft {
+  margin-left: 139px;
+}
+
+.shopHero .shopHeroLeft .shopLine {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.shopHero .shopHeroLeft .heroLeftContent h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 47px;
+  color: #000000;
+  color: #ffffff;
+}
+
+.shopHero .shopHeroLeft .heroLeftContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #414141;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.shopHero .shopHeroLeft .heroLeftContent button {
+  background-color: #ff9c0b;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 14px 21px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 9px 17px;
+}
+/*# sourceMappingURL=ShopHero.css.map */

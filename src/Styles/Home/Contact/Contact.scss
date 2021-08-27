@@ -3,7 +3,6 @@
 .contact {
   display: flex;
   justify-content: space-between;
-  // gap: 112px;
 
   .contactImage {
     width: 735px;
@@ -33,6 +32,8 @@
 
       input,
       textarea {
+        font-family: $otherFont;
+        font-size: 13px;
         background: #ffffff;
         width: 100%;
         padding: 14px 16px;

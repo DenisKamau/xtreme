@@ -2,7 +2,7 @@
 
 .naviHeader {
   background-color: black;
-  height: 37px;
+
   ul {
     display: flex;
     flex-direction: row;
@@ -15,8 +15,7 @@
       text-transform: uppercase;
       text-decoration: none;
       text-align: center;
-      padding: 5px 36px;
-      padding-bottom: 8px;
+      padding: 8px 36px;
     }
 
     a {
@@ -28,7 +27,7 @@
       &.active {
         background-color: white;
         color: black;
-        border-top: 2.5px solid $orangeColor;
+        border-top: 4.5px solid $orangeColor;
       }
     }
   }

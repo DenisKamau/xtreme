@@ -1,0 +1,34 @@
+@import "../../../Variables/variables";
+
+.shopHero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.49)), url(../../../assets/Shop/shopHero.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 540px;
+
+  .shopHeroLeft {
+    margin-left: 139px;
+    .shopLine {
+      height: 40px;
+      margin-top: 30px;
+    }
+
+    .heroLeftContent {
+      h1 {
+        @include h1Style();
+        color: $whiteColor;
+      }
+      p {
+        @include pStyle();
+        margin-top: 12px;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      button {
+        @include buttonStyle();
+        padding: 9px 17px;
+      }
+    }
+  }
+}

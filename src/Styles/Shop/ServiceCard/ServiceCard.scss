@@ -1,0 +1,35 @@
+@import "../../../Variables/variables";
+
+.serviceCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  img {
+    height: 43px;
+  }
+
+  .serviceCardContent {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-family: $otherFont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      letter-spacing: 0.03em;
+      color: #6d7d8b;
+    }
+  }
+}

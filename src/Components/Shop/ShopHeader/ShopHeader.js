@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../Styles/Shop/ShopHeader/ShopHeader.css";
 import "../../../Styles/Home/Header/Header.css";
 import logo from "../../../assets/logo.svg";
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
@@ -7,7 +8,10 @@ import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 
 const ShopHeader = () => {
   return (
-    <section className="headerSection">
+    <section
+      className="headerSection shopHeaderSection
+    "
+    >
       <div className="container homeHeader">
         <div className="logo">
           <img alt="logo" src={logo} className="logoImage" />
