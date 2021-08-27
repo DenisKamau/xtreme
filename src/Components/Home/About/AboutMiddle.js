@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/About/About.css";
+import "../../../Styles/Home/About/About.css";
 import PillarCard from "./PillarCard";
 import yoga from "../../../assets/yoga.svg";
 import mobility from "../../../assets/mobility.svg";

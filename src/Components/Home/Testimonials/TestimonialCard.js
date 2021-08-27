@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/TestimonialCard/TestimonialCard.css";
+import "../../../Styles/Home/TestimonialCard/TestimonialCard.css";
 import rating from "../../../assets/rating.png";
 import quotes from "../../../assets/quotes.png";
 

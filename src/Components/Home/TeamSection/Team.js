@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/Team/Team.css";
+import "../../../Styles/Home/Team/Team.css";
 import TeamCard from "./TeamCard";
 import trainer1 from "../../../assets/trainer1.jpg";
 import trainer2 from "../../../assets/trainer2.jpg";

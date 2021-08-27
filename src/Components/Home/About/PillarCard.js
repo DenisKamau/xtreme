@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/PillarCard/PillarCard.css";
+import "../../../Styles/Home/PillarCard/PillarCard.css";
 
 const PillarCard = ({ image, heading, paragraph }) => {
   return (

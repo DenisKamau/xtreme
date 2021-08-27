@@ -5,7 +5,7 @@ import SearchRoundedIcon from "@material-ui/icons/SearchRounded";
 import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
 import LocalMallOutlinedIcon from "@material-ui/icons/LocalMallOutlined";
 
-const Header = () => {
+const ShopHeader = () => {
   return (
     <section className="headerSection">
       <div className="container homeHeader">
@@ -14,9 +14,8 @@ const Header = () => {
         </div>
         <div className="headerLinks">
           <ul>
-            <li>About us</li>
-            <li>Our trainers</li>
-            <li>Membership</li>
+            <li>Women</li>
+            <li>Men</li>
           </ul>
         </div>
         <div className="headerIcons">
@@ -29,4 +28,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ShopHeader;

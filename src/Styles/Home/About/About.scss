@@ -1,0 +1,218 @@
+@import "../../../Variables/variables";
+
+.aboutTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)), url(../../../assets/background1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .line {
+    width: 0px;
+    height: 30px;
+    border: 1px solid $orangeColor;
+    margin-bottom: 20px;
+    background-color: $orangeColor;
+  }
+
+  h3 {
+    font-family: $titleFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: $whiteColor;
+  }
+
+  .line2 {
+    width: 30px;
+    height: 0px;
+    border: 1.7px solid $orangeColor;
+    background-color: $orangeColor;
+    margin-top: 7px;
+    margin-bottom: 55px;
+  }
+}
+
+.aboutMiddle {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 38px;
+  background: linear-gradient(180deg, #dddddd 0%, #ffffff 100%);
+  border-radius: 50px 50px 0px 0px;
+  margin-top: -35px;
+
+  .firstRow {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 128px;
+    margin-left: 111px;
+    margin-right: 111px;
+
+    .firstRowRight {
+      h5 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        margin-bottom: 50px;
+      }
+
+      .leftCards {
+        margin-left: 45px;
+      }
+    }
+  }
+
+  .secondRow {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 111px;
+    margin-right: 111px;
+
+    h1 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #6d7d8b;
+      margin-bottom: 60px;
+    }
+
+    .servicesRow {
+      display: flex;
+      justify-content: space-between;
+
+      .service {
+        width: 236px;
+
+        h2 {
+          font-family: $titleFont;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 17px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #000000;
+          display: flex;
+          align-items: center;
+
+          span {
+            background-color: $orangeColor;
+            font-family: $titleFont;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 8px;
+            text-align: center;
+            padding: 3px;
+            border-radius: 4px;
+            margin-left: 2px;
+          }
+        }
+
+        p {
+          font-family: $otherFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: $offBlackColor;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+
+  .thirdRow {
+    margin-top: 90px;
+    margin-left: 111px;
+    margin-right: 111px;
+    background: #fec814;
+    border-radius: 50px;
+
+    .thirdRowContent {
+      margin: 50px 80px;
+
+      h3 {
+        font-family: $titleFont;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.29);
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-family: $titleFont;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 51px;
+        color: #000000;
+        margin-bottom: 45px;
+      }
+
+      .numbersRow {
+        display: flex;
+        justify-content: space-between;
+
+        .numbersContent {
+          display: flex;
+          flex-direction: column;
+          max-width: 216px;
+
+          h1 {
+            font-family: $titleFont;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 63px;
+            line-height: 94px;
+            color: #043e8e;
+          }
+
+          p {
+            font-family: $otherFont;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #000000;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.aboutBottom {
+  margin-top: -39px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url(../../../assets/background2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .line {
+    margin-top: 39px;
+  }
+
+  .line2 {
+    margin-bottom: 21px;
+  }
+}

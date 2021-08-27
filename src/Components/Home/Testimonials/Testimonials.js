@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "../../../Styles/Testimonials/Testimonials.css";
+import "../../../Styles/Home/Testimonials/Testimonials.css";
 import TestimonialCard from "./TestimonialCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/About/About.css";
+import "../../../Styles/Home/About/About.css";
 import AboutBottom from "./AboutBottom";
 import AboutMiddle from "./AboutMiddle";
 import AboutTop from "./AboutTop";

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/TeamCard/TeamCard.css";
+import "../../../Styles/Home/TeamCard/TeamCard.css";
 
 const TeamCard = ({ Background }) => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/ProgramSection/ProgramSection.css";
+import "../../../Styles/Home/ProgramSection/ProgramSection.css";
 import bands from "../../../assets/bands.svg";
 import yoga from "../../../assets/yoga.svg";
 import strength from "../../../assets/strength.svg";

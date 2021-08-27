@@ -1,6 +1,6 @@
 import React from "react";
-import "../../../Styles/Price/Price.css";
-import "../../../Styles/PriceCard/PriceCard.css";
+import "../../../Styles/Home/Price/Price.css";
+import "../../../Styles/Home/PriceCard/PriceCard.css";
 import CheckCircleOutlineOutlinedIcon from "@material-ui/icons/CheckCircleOutlineOutlined";
 
 const Price = () => {

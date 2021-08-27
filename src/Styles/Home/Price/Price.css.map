@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,MADI,CACJ,EAAE,CAAC;EC6CH,WAAW,EAzBD,SAAS;EA0BnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CD/Cb;;AAHH,AAKE,MALI,CAKJ,KAAK,CAAC;ECuEN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;EACX,gBAAgB,EAnEJ,OAAO;EAoEnB,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,IAAI;CDzElB;;AAGH,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B",
+    "sources": [
+        "Price.scss",
+        "../../../Variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "Price.css"
+}

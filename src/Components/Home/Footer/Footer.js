@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../Styles/Footer/Footer.css";
+import "../../../Styles/Home/Footer/Footer.css";
 import bg from "../../../assets/footerbg.png";
 import logo from "../../../assets/logo.svg";
 import FacebookIcon from "@material-ui/icons/Facebook";

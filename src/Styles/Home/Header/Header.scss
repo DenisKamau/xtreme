@@ -1,0 +1,38 @@
+@import "../../../Variables/variables";
+
+.headerSection {
+  padding: 15px 30px 0px 30px;
+
+  .homeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    flex: 0.25;
+
+    .logoImage {
+      width: 200px;
+    }
+  }
+
+  .headerLinks {
+    ul {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      list-style: none;
+      font-size: 14px;
+      letter-spacing: 0.05em;
+      text-align: center;
+    }
+  }
+  .headerIcons {
+    display: flex;
+    flex: 0.25;
+    align-items: center;
+    gap: 18px;
+    justify-content: flex-end;
+  }
+}
