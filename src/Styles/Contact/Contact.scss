@@ -2,10 +2,11 @@
 
 .contact {
   display: flex;
-  gap: 112px;
+  justify-content: space-between;
+  // gap: 112px;
+
   .contactImage {
     width: 735px;
-    height: 566px;
     border-radius: 6px;
   }
 
@@ -48,6 +49,7 @@
 
       button {
         @include buttonStyle();
+        padding: 0px;
         width: 129px;
         height: 47px;
         border-radius: 10px;

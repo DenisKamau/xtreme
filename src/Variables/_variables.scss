@@ -15,6 +15,7 @@ $orangeColor: #ff9c0b;
 $blackColor: #000000;
 $offBlackColor: #414141;
 $whiteColor: #ffffff;
+$offWhiteColor: #ffffffde;
 
 // =========================
 //         FONTS
@@ -30,9 +31,9 @@ $otherFont: "Lato";
 @mixin h1Style {
   font-family: $titleFont;
   font-style: normal;
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 700;
-  line-height: 51px;
+  line-height: 47px;
   color: $blackColor;
 }
 
@@ -48,8 +49,7 @@ $otherFont: "Lato";
   font-family: $titleFont;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 31px;
   color: #000000;
 }
 
@@ -77,8 +77,8 @@ $otherFont: "Lato";
 
 @mixin lineStyle {
   width: 60px;
-  height: 3px;
+  height: 2px;
   background-color: $orangeColor;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 60px;
 }

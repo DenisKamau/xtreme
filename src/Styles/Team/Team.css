@@ -2,16 +2,15 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 31px;
   color: #000000;
 }
 
 .team .line {
   width: 60px;
-  height: 3px;
+  height: 2px;
   background-color: #ff9c0b;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 60px;
 }
 
@@ -23,8 +22,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-preferred-size: 33.33333333333333%;
+      flex-basis: 33.33333333333333%;
 }
 /*# sourceMappingURL=Team.css.map */

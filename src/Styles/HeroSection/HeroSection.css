@@ -15,24 +15,23 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 120px;
+  margin-left: 113px;
 }
 
 .heroSection .heroLeft .orangeLine {
-  width: 75px;
-  height: 0px;
+  width: 0px;
+  height: 60px;
   border: 2px solid #ff9c0b;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  margin-top: 75px;
+  margin-top: 41px;
+  margin-right: 30px;
 }
 
 .heroSection .heroLeft .heroLeftContent h1 {
   font-family: "Poppins";
   font-style: normal;
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 700;
-  line-height: 51px;
+  line-height: 47px;
   color: #000000;
 }
 
@@ -58,6 +57,7 @@
   font-size: 13px;
   line-height: 24px;
   margin-top: 60px;
+  padding: 12px 21px;
 }
 
 .heroSection .heroRight {
@@ -65,7 +65,6 @@
 }
 
 .heroSection .heroRight img {
-  width: 600px;
-  height: 600px;
+  height: 580px;
 }
 /*# sourceMappingURL=HeroSection.css.map */

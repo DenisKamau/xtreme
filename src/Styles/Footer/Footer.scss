@@ -13,7 +13,7 @@
     img {
       width: 311px;
       height: 84px;
-      margin-bottom: 30px;
+      margin-left: -15px;
     }
 
     p {
@@ -22,15 +22,14 @@
       font-weight: 900;
       font-size: 15px;
       line-height: 21px;
-      color: $whiteColor;
-      margin-bottom: 30px;
-      width: 205px;
+      color: $offWhiteColor;
+      margin-bottom: 15px;
     }
 
     .icons {
       display: flex;
       gap: 15px;
-      color: $whiteColor;
+      color: $offWhiteColor;
     }
   }
 
@@ -73,7 +72,7 @@
       display: flex;
       align-items: center;
       gap: 15px;
-      color: $whiteColor;
+      color: $offWhiteColor;
       margin-bottom: 15px;
 
       p {
@@ -83,7 +82,7 @@
         font-size: 15px;
         line-height: 18px;
         letter-spacing: 1px;
-        color: $whiteColor;
+        color: $offWhiteColor;
       }
     }
   }
@@ -97,6 +96,6 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 21px;
-  color: $whiteColor;
+  color: $offWhiteColor;
   padding-bottom: 30px;
 }

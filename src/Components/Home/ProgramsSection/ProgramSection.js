@@ -23,6 +23,7 @@ const ProgramSection = () => {
           </div>
           <p>Enjoy yoga classes for all levels, body weight exercises and more.</p>
         </div>
+        <div className="greyLine"></div>
         <div className="programCategory">
           <div className="categoryTop">
             <h3>Strength</h3>
@@ -30,6 +31,7 @@ const ProgramSection = () => {
           </div>
           <p>Regular strength training improves the health of your bones, muscles and connective tissue.</p>
         </div>
+        <div className="greyLine"></div>
         <div className="programCategory">
           <div className="categoryTop">
             <h3>Fitness</h3>

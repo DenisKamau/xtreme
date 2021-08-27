@@ -1,5 +1,10 @@
 .teamCard {
-  width: 413px;
-  height: 398px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  -ms-flex-preferred-size: 33.333333%;
+      flex-basis: 33.333333%;
 }
 /*# sourceMappingURL=TeamCard.css.map */

@@ -2,7 +2,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 180px;
+  margin-top: 120px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -14,7 +14,6 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: 80px;
-  margin-right: 43px;
 }
 
 .programs .programsLeft h1 {
@@ -37,9 +36,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 24px 88px;
+  padding: 30px 80px;
   background-color: #e0f1ff;
-  gap: 90px;
+  gap: 45px;
   border-radius: 20px;
 }
 
@@ -71,7 +70,15 @@
   font-size: 15px;
   line-height: 21px;
   color: #414141;
-  width: 169px;
   height: auto;
+}
+
+.programs .programsRight .greyLine {
+  width: 0px;
+  height: 134px;
+  border: 1px solid #bbc8d449;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=ProgramSection.css.map */

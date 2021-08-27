@@ -15,16 +15,18 @@ const AboutMiddle = () => {
           <h5>
             Our trainers follow our 5 key <br /> pillars of fitness to get you in <br /> top condition
           </h5>
-          <PillarCard
-            image={yoga}
-            heading="Posture"
-            paragraph="Correcting your posture will reduce stress and strain on your body. You’ll stand taller, move better and feel less fatigue."
-          />
-          <PillarCard
-            image={muscle}
-            heading="Core"
-            paragraph="Your core is part of almost every move you make. Strong core mucles act as a stabilizer, making moving safer and more efficient."
-          />
+          <div className="leftCards">
+            <PillarCard
+              image={yoga}
+              heading="Posture"
+              paragraph="Correcting your posture will reduce stress and strain on your body. You’ll stand taller, move better and feel less fatigue."
+            />
+            <PillarCard
+              image={muscle}
+              heading="Core"
+              paragraph="Your core is part of almost every move you make. Strong core mucles act as a stabilizer, making moving safer and more efficient."
+            />
+          </div>
         </div>
         <div className="firstRowLeft">
           <PillarCard

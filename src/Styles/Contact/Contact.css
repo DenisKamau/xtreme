@@ -2,12 +2,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 112px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contact .contactImage {
   width: 735px;
-  height: 566px;
   border-radius: 6px;
 }
 
@@ -15,16 +16,15 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 45px;
+  font-size: 31px;
   color: #000000;
 }
 
 .contact .contactRight .line {
   width: 60px;
-  height: 3px;
+  height: 2px;
   background-color: #ff9c0b;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 60px;
   margin-bottom: 7px;
 }
@@ -71,6 +71,7 @@
   font-weight: bold;
   font-size: 13px;
   line-height: 24px;
+  padding: 0px;
   width: 129px;
   height: 47px;
   border-radius: 10px;

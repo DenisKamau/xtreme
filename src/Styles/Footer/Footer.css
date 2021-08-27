@@ -15,7 +15,7 @@
 .footer .footerLeft img {
   width: 311px;
   height: 84px;
-  margin-bottom: 30px;
+  margin-left: -15px;
 }
 
 .footer .footerLeft p {
@@ -24,9 +24,8 @@
   font-weight: 900;
   font-size: 15px;
   line-height: 21px;
-  color: #ffffff;
-  margin-bottom: 30px;
-  width: 205px;
+  color: #ffffffde;
+  margin-bottom: 15px;
 }
 
 .footer .footerLeft .icons {
@@ -34,7 +33,7 @@
   display: -ms-flexbox;
   display: flex;
   gap: 15px;
-  color: #ffffff;
+  color: #ffffffde;
 }
 
 .footer .footerRight {
@@ -54,9 +53,9 @@
 
 .footer .footerRight .line {
   width: 60px;
-  height: 3px;
+  height: 2px;
   background-color: #ff9c0b;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 60px;
   background-color: #ffffff;
 }
@@ -87,7 +86,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
-  color: #ffffff;
+  color: #ffffffde;
   margin-bottom: 15px;
 }
 
@@ -98,7 +97,7 @@
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: #ffffffde;
 }
 
 .copyright {
@@ -109,7 +108,7 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 21px;
-  color: #ffffff;
+  color: #ffffffde;
   padding-bottom: 30px;
 }
 /*# sourceMappingURL=Footer.css.map */

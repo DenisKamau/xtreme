@@ -2,15 +2,13 @@
 
 .programs {
   display: flex;
-  margin-top: 180px;
+  margin-top: 120px;
   align-items: center;
   gap: 45px;
 
   .programsLeft {
     display: flex;
     margin-left: 80px;
-    margin-right: 43px;
-
     h1 {
       @include h2Style();
       width: 150px;
@@ -26,9 +24,9 @@
 
   .programsRight {
     display: flex;
-    padding: 24px 88px;
+    padding: 30px 80px;
     background-color: #e0f1ff;
-    gap: 90px;
+    gap: 45px;
     border-radius: 20px;
 
     .programCategory {
@@ -56,9 +54,15 @@
         font-size: 15px;
         line-height: 21px;
         color: $offBlackColor;
-        width: 169px;
         height: auto;
       }
+    }
+
+    .greyLine {
+      width: 0px;
+      height: 134px;
+      border: 1px solid #bbc8d449;
+      align-self: center;
     }
   }
 }

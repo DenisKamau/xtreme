@@ -8,14 +8,14 @@
 
   .heroLeft {
     display: flex;
-    margin-left: 120px;
+    margin-left: 113px;
 
     .orangeLine {
-      width: 75px;
-      height: 0px;
+      width: 0px;
+      height: 60px;
       border: 2px solid $orangeColor;
-      transform: rotate(90deg);
-      margin-top: 75px;
+      margin-top: 41px;
+      margin-right: 30px;
     }
 
     .heroLeftContent {
@@ -29,6 +29,7 @@
       button {
         @include buttonStyle();
         margin-top: 60px;
+        padding: 12px 21px;
       }
     }
   }
@@ -36,8 +37,7 @@
   .heroRight {
     margin-right: -20px;
     img {
-      width: 600px;
-      height: 600px;
+      height: 580px;
     }
   }
 }

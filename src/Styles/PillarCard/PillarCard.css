@@ -20,15 +20,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
+  gap: 2px;
 }
 
 .pillarCard .pillarCardRight h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 17px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -37,7 +36,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   color: #414141;
 }

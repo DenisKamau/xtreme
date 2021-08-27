@@ -59,9 +59,8 @@ const Testimonials = () => {
     infinite: false,
     speed: 500,
     lazyLoad: true,
-    initialSlide: 2,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };

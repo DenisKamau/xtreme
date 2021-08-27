@@ -16,7 +16,9 @@ const Footer = () => {
       <div className="container footer">
         <div className="footerLeft">
           <img alt="logo" src={logo} />
-          <p>Helping you acheive your fitness goals and dream body.</p>
+          <p>
+            Helping you achieve your <br /> fitness goals and dream body.
+          </p>
           <div className="icons">
             <FacebookIcon />
             <InstagramIcon />
