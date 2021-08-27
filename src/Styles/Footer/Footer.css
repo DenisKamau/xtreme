@@ -58,6 +58,7 @@
   margin-top: 5px;
   margin-bottom: 60px;
   background-color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .footer .footerRight .contactDetails {
@@ -106,7 +107,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 21px;
   color: #ffffffde;
   padding-bottom: 30px;

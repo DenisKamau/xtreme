@@ -49,6 +49,7 @@
     .line {
       @include lineStyle();
       background-color: $whiteColor;
+      margin-bottom: 30px;
     }
 
     .contactDetails {
@@ -94,7 +95,7 @@
   font-family: $otherFont;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 21px;
   color: $offWhiteColor;
   padding-bottom: 30px;
