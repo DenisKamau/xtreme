@@ -1,0 +1,45 @@
+@import "../../../Variables/variables";
+
+.product {
+  display: flex;
+  flex-direction: column;
+
+  .productImage {
+    width: 260px;
+    height: 335px;
+  }
+
+  .productDetails {
+    margin-top: 13px;
+
+    h3 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: 3px;
+    }
+
+    .productPrice {
+      display: flex;
+      gap: 5px;
+      font-family: $otherFont;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+
+      .initialPrice {
+        text-decoration-line: line-through;
+        color: #000000;
+      }
+
+      .discount {
+        color: #ff0000;
+      }
+    }
+  }
+}

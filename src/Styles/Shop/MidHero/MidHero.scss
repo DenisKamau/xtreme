@@ -1,0 +1,52 @@
+@import "../../../Variables/variables";
+
+.midSection {
+  background: url(../../../assets/Shop/backgound.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  margin-top: 111px;
+
+  .midHero {
+    margin-left: 139px;
+    display: flex;
+    align-items: center;
+
+    .midLine {
+      width: 0px;
+      height: 40px;
+      border: 2px solid $orangeColor;
+      margin-right: 30px;
+    }
+
+    .midContent {
+      margin-top: 155px;
+      h5 {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.81);
+      }
+
+      h2 {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 43px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      button {
+        @include buttonStyle();
+        padding: 9px 17px;
+        margin-top: 60px;
+      }
+    }
+  }
+}

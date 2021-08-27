@@ -1,0 +1,25 @@
+@import "../../../Variables/variables";
+
+.newsletter {
+  display: flex;
+
+  .newsletterLeft {
+    h3 {
+      @include h3Style();
+    }
+    p {
+      font-family: $otherFont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      color: #000000;
+    }
+  }
+
+  .newsletterRight {
+    .form {
+      .input {
+      }
+    }
+  }
+}

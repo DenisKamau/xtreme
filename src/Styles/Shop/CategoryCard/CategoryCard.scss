@@ -1,0 +1,58 @@
+@import "../../../Variables/variables";
+
+.categoryCard {
+  width: 100%;
+  background: linear-gradient(90deg, #f1f1f1 0%, rgba(241, 241, 241, 0.33) 100%);
+  border-radius: 4px;
+
+  .categoryCardContent {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    padding: 10px 0px;
+
+    .categoryCardLeft {
+      width: 180px;
+    }
+
+    h3 {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #000000;
+      margin-bottom: -2px;
+    }
+
+    h2 {
+      font-family: $titleFont;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 41px;
+      letter-spacing: 0.08em;
+      color: #000000;
+      margin-left: -4px;
+    }
+
+    button {
+      @include buttonStyle();
+      text-transform: uppercase;
+      padding: 23px;
+      border-radius: 53px;
+      margin-top: 17px;
+      line-height: 0px;
+      font-size: 12px;
+    }
+  }
+}
+
+.categoryCardImage {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  img {
+    height: 280px;
+  }
+}

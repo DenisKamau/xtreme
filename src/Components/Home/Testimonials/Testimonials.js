@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import forwardArrow from "../../../assets/forwardarrow.png";
 import backArrow from "../../../assets/backarrow.png";
-
 import avatar1 from "../../../assets/Avatar.png";
 import avatar2 from "../../../assets/Avatar2.png";
 import avatar3 from "../../../assets/Avatar3.png";

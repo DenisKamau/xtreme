@@ -1,0 +1,44 @@
+@import "../../../Variables/variables";
+
+.sliderTop {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .sliderTopLeft {
+    h5 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: $greyColor;
+    }
+
+    h3 {
+      @include h3Style();
+      text-transform: uppercase;
+    }
+  }
+
+  .sliderTopRight {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    h6 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-decoration-line: underline;
+      color: #000000;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newsletter .newsletterLeft h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  color: #000000;
+}
+
+.newsletter .newsletterLeft p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #000000;
+}
+/*# sourceMappingURL=Newsletter.css.map */

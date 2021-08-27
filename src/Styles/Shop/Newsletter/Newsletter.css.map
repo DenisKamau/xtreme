@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;CAqBd;;AAtBD,AAII,WAJO,CAGT,eAAe,CACb,EAAE,CAAC;EC2CL,WAAW,EAzBD,SAAS;EA0BnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CD7CX;;AANL,AAOI,WAPO,CAGT,eAAe,CAIb,CAAC,CAAC;EACA,WAAW,ECeL,MAAM;EDdZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "Newsletter.scss",
+        "../../../Variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "Newsletter.css"
+}

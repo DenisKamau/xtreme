@@ -1,0 +1,7 @@
+.categoryRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+/*# sourceMappingURL=Category.css.map */

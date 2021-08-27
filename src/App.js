@@ -11,9 +11,7 @@ const App = () => {
       <Router>
         <NaviHeader />
         <Switch>
-          <Route path="/shop">
-            <Shop />
-          </Route>
+          <Route exact path="/shop" component={Shop} />
           <Route exact path="/" component={Homepage} />
         </Switch>
       </Router>

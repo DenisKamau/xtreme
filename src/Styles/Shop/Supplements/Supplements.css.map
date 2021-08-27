@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,wCAAwC;EACpD,uBAAuB,EAAE,KAAK;EAC9B,oBAAoB,EAAE,KAAK;EAC3B,kBAAkB,EAAE,KAAK;EACzB,eAAe,EAAE,KAAK;EACtB,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "Supplements.scss",
+        "../../../Variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "Supplements.css"
+}
