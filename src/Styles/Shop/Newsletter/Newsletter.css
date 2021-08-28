@@ -1,10 +1,20 @@
-.newsletter {
+.newsLetterSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.newsletter .newsletterLeft h3 {
+.newsLetter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 90px;
+}
+
+.newsLetter .newsletterLeft h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -12,11 +22,47 @@
   color: #000000;
 }
 
-.newsletter .newsletterLeft p {
+.newsLetter .newsletterLeft p {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
-  color: #000000;
+  font-size: 16px;
+  color: #414141;
+}
+
+.newsLetter .newsletterRight .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.newsLetter .newsletterRight .form .input {
+  border: transparent;
+  width: 380px;
+  border-bottom: 2px solid #000000;
+  padding: 0px 20px;
+}
+
+.newsLetter .newsletterRight .form .input:focus {
+  outline: none !important;
+}
+
+.newsLetter .newsletterRight .form button {
+  background-color: #ff9c0b;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 14px 21px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  width: 120px;
+  height: 40px;
+  padding: 9px 17px;
 }
 /*# sourceMappingURL=Newsletter.css.map */

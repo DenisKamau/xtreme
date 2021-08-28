@@ -7,6 +7,7 @@ import ShopHeader from "../ShopHeader/ShopHeader";
 import ShopHero from "../ShopHeroSection/ShopHero";
 import Supplements from "../SupplementsSection/Supplements";
 import TrendingSlide from "../TrendingSlide/TrendingSlide";
+import Footer from "../../Home/Footer/Footer";
 
 const Shop = () => {
   return (
@@ -15,12 +16,13 @@ const Shop = () => {
       <ShopHero />
       <Services />
       <Category />
-      <TrendingSlide />
+      <TrendingSlide Category="Women" />
       <MidHero />
-      <TrendingSlide />
+      <TrendingSlide Category="Men" />
       <Supplements />
-      <TrendingSlide />
+      <TrendingSlide Category="Supplements" />
       <Newsletter />
+      <Footer />
     </div>
   );
 };

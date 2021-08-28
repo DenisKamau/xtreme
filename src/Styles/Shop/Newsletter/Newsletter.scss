@@ -1,7 +1,13 @@
 @import "../../../Variables/variables";
 
-.newsletter {
+.newsLetterSection {
   display: flex;
+  justify-content: center;
+}
+
+.newsLetter {
+  display: flex;
+  gap: 90px;
 
   .newsletterLeft {
     h3 {
@@ -11,14 +17,31 @@
       font-family: $otherFont;
       font-style: normal;
       font-weight: 500;
-      font-size: 17px;
-      color: #000000;
+      font-size: 16px;
+      color: $offBlackColor;
     }
   }
 
   .newsletterRight {
     .form {
+      display: flex;
+      justify-content: baseline;
       .input {
+        border: transparent;
+        width: 380px;
+        border-bottom: 2px solid #000000;
+        padding: 0px 20px;
+
+        &:focus {
+          outline: none !important;
+        }
+      }
+
+      button {
+        @include buttonStyle();
+        width: 120px;
+        height: 40px;
+        padding: 9px 17px;
       }
     }
   }
