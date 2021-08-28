@@ -98,26 +98,3 @@ const TrendingSlide = ({ Category }) => {
 
 export default TrendingSlide;
 
-//  <Slider {...settings}>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// <div>
-//   <Product />
-// </div>
-// </Slider>
