@@ -1,0 +1,133 @@
+@import "../../../Variables/variables";
+
+.allItemsHero {
+  position: relative;
+  height: 263px;
+
+  .allItemsHeroContent {
+    float: right;
+    margin-top: 65px;
+
+    h1 {
+      @include h1Style();
+      color: $whiteColor;
+      margin-bottom: 2px;
+    }
+
+    p {
+      @include pStyle();
+      font-family: $titleFont;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: normal;
+      color: rgba(255, 255, 255, 0.85);
+      margin-bottom: 30px;
+    }
+
+    text {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.71);
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.allItemsContent {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+
+  @mixin filterTypeStyle {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 23px 20px;
+    background: #e8e8e8;
+    border-radius: 4px;
+    justify-content: space-between;
+  }
+
+  .contentLeft {
+    flex: 0.2;
+
+    h6 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      color: #6d7d8b;
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      font-family: $titleFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+
+    .filters {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      gap: 15px;
+
+      .filterType {
+        @include filterTypeStyle();
+      }
+    }
+  }
+
+  .contentRight {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+
+    .topSection {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 55px;
+
+      h3 {
+        @include h3Style();
+        text-transform: uppercase;
+        font-size: 25px;
+        letter-spacing: 0.08em;
+      }
+
+      .filterType {
+        @include filterTypeStyle();
+        width: 230px;
+        height: 40px;
+      }
+    }
+
+    .itemsRow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 60px 0px;
+    }
+
+    button {
+      @include buttonStyle();
+      align-self: center;
+      margin-top: 90px;
+      border-radius: 53px;
+      padding: 10px 20px;
+      margin-bottom: 30px;
+    }
+  }
+}

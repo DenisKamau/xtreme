@@ -12,7 +12,9 @@ const TrendingSlide = ({ Category }) => {
     speed: 500,
     lazyLoad: true,
     slidesToShow: 4.5,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    variableWidth: true,
+    swipeToSlide: true,
   };
 
   return (
@@ -31,7 +33,7 @@ const TrendingSlide = ({ Category }) => {
         <div style={{ overflow: "hidden" }} className="container">
           {Category === "Women" ? (
             <Slider {...settings}>
-              <div>
+              <div style={{ width: 270 }}>
                 <Product img={IMAGES.img1} name="Nike Sports Bra" />
               </div>
               <div>
@@ -52,7 +54,7 @@ const TrendingSlide = ({ Category }) => {
             </Slider>
           ) : Category === "Men" ? (
             <Slider {...settings}>
-              <div>
+              <div style={{ width: 270 }}>
                 <Product img={IMAGES.img7} name="Men black joggers" />
               </div>
               <div>
@@ -67,13 +69,10 @@ const TrendingSlide = ({ Category }) => {
               <div>
                 <Product img={IMAGES.img11} name="Men black joggers" />
               </div>
-              <div>
-                <Product img={IMAGES.img12} name="adidas joggers" />
-              </div>
             </Slider>
           ) : (
             <Slider {...settings}>
-              <div>
+              <div style={{ width: 270 }}>
                 <Product img={IMAGES.img13} name="usn creatine" />
               </div>
               <div>
@@ -97,4 +96,3 @@ const TrendingSlide = ({ Category }) => {
 };
 
 export default TrendingSlide;
-

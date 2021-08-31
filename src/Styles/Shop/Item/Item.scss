@@ -1,0 +1,34 @@
+@import "../../../Variables/variables";
+
+.image-gallery {
+  width: 40%;
+  height: auto;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+  max-height: 630px;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+  width: 70%;
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  outline: none;
+  border: transparent;
+}
+
+.image-gallery-content.left .image-gallery-slide .image-gallery-image,
+.image-gallery-content.right .image-gallery-slide .image-gallery-image {
+  max-height: 630px;
+}

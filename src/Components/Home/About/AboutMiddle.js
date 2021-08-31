@@ -65,7 +65,7 @@ const AboutMiddle = () => {
             <h2>
               xtreme+ <span>ALL ACCESS</span>
             </h2>
-            <p>Add powerful feautures to your membership</p>
+            <p>Add powerful features to your membership</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,198 @@
+.allItemsHero {
+  position: relative;
+  height: 263px;
+}
+
+.allItemsHero .allItemsHeroContent {
+  float: right;
+  margin-top: 65px;
+}
+
+.allItemsHero .allItemsHeroContent h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 47px;
+  color: #000000;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.allItemsHero .allItemsHeroContent p {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #414141;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 30px;
+}
+
+.allItemsHero .allItemsHeroContent text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.71);
+}
+
+.allItemsHero .allItemsHeroContent text span {
+  text-decoration: underline;
+}
+
+.allItemsContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.allItemsContent .contentLeft {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+.allItemsContent .contentLeft h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #6d7d8b;
+  margin-bottom: 40px;
+}
+
+.allItemsContent .contentLeft h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.allItemsContent .contentLeft .filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.allItemsContent .contentLeft .filters .filterType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 23px 20px;
+  background: #e8e8e8;
+  border-radius: 4px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.allItemsContent .contentRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.allItemsContent .contentRight .topSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 55px;
+}
+
+.allItemsContent .contentRight .topSection h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 0.08em;
+}
+
+.allItemsContent .contentRight .topSection .filterType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 23px 20px;
+  background: #e8e8e8;
+  border-radius: 4px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 230px;
+  height: 40px;
+}
+
+.allItemsContent .contentRight .itemsRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 60px 0px;
+}
+
+.allItemsContent .contentRight button {
+  background-color: #ff9c0b;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 14px 21px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 90px;
+  border-radius: 53px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=AllItems.css.map */
