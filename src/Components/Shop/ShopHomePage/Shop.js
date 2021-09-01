@@ -15,8 +15,7 @@ const Shop = () => {
   return (
     <div className="shop">
       <ShopHeader />
-      <Item />
-      {/* <ShopHero />
+      <ShopHero />
       <Services />
       <Category />
       <TrendingSlide Category="Women" />
@@ -24,7 +23,7 @@ const Shop = () => {
       <TrendingSlide Category="Men" />
       <Supplements />
       <TrendingSlide Category="Supplements" />
-      <Newsletter /> */}
+      <Newsletter />
     </div>
   );
 };
