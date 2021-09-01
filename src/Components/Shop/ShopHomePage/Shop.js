@@ -7,9 +7,6 @@ import ShopHeader from "../ShopHeader/ShopHeader";
 import ShopHero from "../ShopHeroSection/ShopHero";
 import Supplements from "../SupplementsSection/Supplements";
 import TrendingSlide from "../TrendingSlide/TrendingSlide";
-import Footer from "../../Home/Footer/Footer";
-import AllItems from "../AllItems/AllItems";
-import Item from "../Item/Item";
 
 const Shop = () => {
   return (
