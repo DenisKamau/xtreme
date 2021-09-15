@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="container heroSection">
       <div className="heroLeft">
-        <div className="orangeLine"></div>
+        <div className="orangeLine" />
         <div className="heroLeftContent">
           <h1>
             Breath, <br />

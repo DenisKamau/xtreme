@@ -6,7 +6,7 @@ const ShopHero = () => {
   return (
     <div className="heroSection shopHero">
       <div className="container heroLeft shopHeroLeft">
-        <div className="orangeLine shopLine"></div>
+        <div className="orangeLine shopLine" />
         <div className="heroLeftContent">
           <h1>
             Work Hard,
